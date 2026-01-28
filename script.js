@@ -31,7 +31,7 @@ function checkoutWhatsApp() {
   let msg = "Order Details:%0A";
   cart.forEach(i => msg += i.name + " - ₹" + i.price + "%0A");
   msg += "Total: ₹" + total;
-  window.open("https://wa.me/919876543210?text=" + msg);
+  window.open("https://wa.me/9380179441?text=" + msg);
 }
 
 function razorpay() {
@@ -44,3 +44,4 @@ function filterProducts(type) {
       type === "all" || p.classList.contains(type) ? "block" : "none";
   });
 }
+
